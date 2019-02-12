@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         //for(i in 1..9)
-         todos.add(Todo("Thank U i","Text"))
+         //todos.add(Todo("Thank U i","Text"))
 
         recyclerView.layoutManager = LinearLayoutManager(this, LinearLayout.VERTICAL, false)
         val adapter = TodosAdapter(todos)
